@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/dashboard.css">
+    <link rel="icon" href="../vitlogo.jpg">
+    <title>Dashboard - BookVault</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <img src="../vitlogo.jpg" alt="Logo" width="30" height="30" class="vitlogo" />
+            <div class="book">BookVault</div>
+            <div class="menu-bar" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="nav-menu" class="nav-menu">
+                <ul>
+                    <li><a href="/Book_Vault/index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><button onclick="window.location.href='/Book_Vault/index.html';">Sign Out</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="dashboard-container">
+            <div class="vertical-tabs">
+                <button class="tablink active" onclick="openTab(event, 'profile')">Profile</button>
+                <button class="tablink" onclick="openTab(event, 'your-books')">Your Books</button>
+            </div>
+
+            <div class="tab-content" id="profile">
+                <h2>Your Profile</h2>
+                <!-- <p>Here is the information about your profile.</p> -->
+                <div class="user_info" id="name"></div>
+                <div class="user_info" id="email"></div>
+                <div class="user_info" id="userid"></div>
+
+
+            </div>
+
+            <div class="tab-content" id="your-books" style="display:none;">
+                <h2>Your Books</h2>
+                <!-- <p>Here is a list of the books you've issued.</p> -->
+                <div class="user_info" id="books"></div>
+            </div>
+        </div>
+    </div>
+    <script src="../Scripts/dashboard.js"></script></script>
+</body>
+
+</html>

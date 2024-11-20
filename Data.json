@@ -1,0 +1,122 @@
+[
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Fiction",
+        "description": "A novel about racial injustice in the Deep South."
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Dystopian",
+        "description": "A dystopian novel that explores the dangers of totalitarianism."
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "genre": "Romance",
+        "description": "A story about love, reputation, and class in early 19th century England."
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Fiction",
+        "description": "A critique of the American Dream set in the 1920s."
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "genre": "Dystopian",
+        "description": "A future society where humans are genetically engineered and conditioned."
+    },
+    {
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "genre": "Adventure",
+        "description": "The quest of Ishmael to hunt the giant white whale, Moby Dick."
+    },
+    {
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "genre": "Historical Fiction",
+        "description": "A sweeping narrative of Russian society during the Napoleonic Wars."
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Fiction",
+        "description": "A story about teenage alienation and loss."
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "description": "An epic tale of the struggle between good and evil in Middle-earth."
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "genre": "Adventure",
+        "description": "A philosophical tale about pursuing one's dreams."
+    },
+    {
+        "title": "The Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "genre": "Fantasy",
+        "description": "A series of seven high fantasy novels set in the magical land of Narnia."
+    },
+    {
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "genre": "Dystopian",
+        "description": "A novel about a future where books are banned and 'firemen' burn them."
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "genre": "Gothic Fiction",
+        "description": "A story about a man whose portrait ages while he remains young and beautiful."
+    },
+    {
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "genre": "Psychological Fiction",
+        "description": "A tale of morality and redemption centered on a poor ex-student in St. Petersburg."
+    },
+    {
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "genre": "Science Fiction",
+        "description": "A comic science fiction series about intergalactic travel."
+    },
+    {
+        "title": "The Grapes of Wrath",
+        "author": "John Steinbeck",
+        "genre": "Historical Fiction",
+        "description": "A novel about the struggles of an Oklahoma family during the Great Depression."
+    },
+    {
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "genre": "Realist Fiction",
+        "description": "A tragic love story set in Russian high society."
+    },
+    {
+        "title": "The Fault in Our Stars",
+        "author": "John Green",
+        "genre": "Young Adult",
+        "description": "A romantic drama about two teenagers who meet in a cancer support group."
+    },
+    {
+        "title": "Gone with the Wind",
+        "author": "Margaret Mitchell",
+        "genre": "Historical Fiction",
+        "description": "A story of love and loss set during the American Civil War."
+    },
+    {
+        "title": "The Bell Jar",
+        "author": "Sylvia Plath",
+        "genre": "Autobiographical Fiction",
+        "description": "A semi-autobiographical novel about a young woman's mental breakdown."
+    }
+]

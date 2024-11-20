@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav {
+    background-color: #1b7a6a;
+    height: 49px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-top: -1px;
+    width: 97%;
+}
+
+.menu-bar {
+    width: 35px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 10px 0;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu.active {
+    display: block;
+}
+
+.menu-bar div {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+
+.nav-menu button {
+    height: 30px;
+    width: 76px;
+    font-size: 1rem;
+    color: aqua;
+    border: 1.5px solid aqua;
+    background-color: #333;
+    border-radius: 7px;
+}
+
+.nav-menu button:hover {
+    cursor: pointer;
+    background-color: rgba(170, 246, 246, 0.114);
+}
+.content{
+    padding-top: 48px;
+    background-color:#1b7a6a0e;
+}
+.book {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.dashboard-container {
+    display: flex;
+    height: calc(100vh - 49px);
+}
+
+.vertical-tabs {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: #1b7a6a;
+    padding: 5px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tablink {
+    background-color: #1b7a6a;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.tablink:hover {
+    background-color: #155e52;
+}
+
+.tablink.active {
+    background-color: #0e5942;
+}
+
+.tab-content {
+    flex-grow: 1;
+    padding: 20px;
+    /* background-color: white; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.user_info {
+    font-size: 2.2vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-content h2 {
+    margin-top: 0;
+    color: black;
+    text-decoration: underline 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-content.active {
+    display: grid;
+}
