@@ -118,5 +118,185 @@
         "author": "Sylvia Plath",
         "genre": "Autobiographical Fiction",
         "description": "A semi-autobiographical novel about a young woman's mental breakdown."
+    },
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "description": "The beginning of the magical journey of Harry Potter at Hogwarts."
+    },
+    {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "genre": "Dystopian",
+        "description": "A story of survival in a deadly televised competition."
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "genre": "Science Fiction",
+        "description": "A saga about politics, religion, and ecology on the desert planet Arrakis."
+    },
+    {
+        "title": "A Game of Thrones",
+        "author": "George R.R. Martin",
+        "genre": "Fantasy",
+        "description": "The battle for the Iron Throne in the land of Westeros."
+    },
+    {
+        "title": "Percy Jackson & the Olympians: The Lightning Thief",
+        "author": "Rick Riordan",
+        "genre": "Fantasy",
+        "description": "The adventures of a modern-day demigod in Greek mythology."
+    },
+    {
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "genre": "Post-Apocalyptic",
+        "description": "A father and son's journey through a desolate, ruined America."
+    },
+    {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "genre": "Gothic Fiction",
+        "description": "The classic tale of Count Dracula and his pursuit of new blood."
+    },
+    {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "genre": "Science Fiction",
+        "description": "A cautionary tale about ambition and the creation of life."
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "description": "Bilbo Baggins' adventure to reclaim a treasure guarded by a dragon."
+    },
+    {
+        "title": "Les Misérables",
+        "author": "Victor Hugo",
+        "genre": "Historical Fiction",
+        "description": "A sweeping story of love, revolution, and redemption in 19th century France."
+    },
+    {
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "genre": "Historical Fiction",
+        "description": "A tale of friendship and betrayal set in Afghanistan."
+    },
+    {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "genre": "Horror",
+        "description": "A family is terrorized by supernatural forces at an isolated hotel."
+    },
+    {
+        "title": "It",
+        "author": "Stephen King",
+        "genre": "Horror",
+        "description": "A group of friends confronts a shapeshifting monster in their hometown."
+    },
+    {
+        "title": "Life of Pi",
+        "author": "Yann Martel",
+        "genre": "Adventure",
+        "description": "A young boy survives a shipwreck while stranded on a lifeboat with a tiger."
+    },
+    {
+        "title": "The Secret Garden",
+        "author": "Frances Hodgson Burnett",
+        "genre": "Children's Fiction",
+        "description": "A story of renewal and discovery in a hidden, magical garden."
+    },
+    {
+        "title": "Little Women",
+        "author": "Louisa May Alcott",
+        "genre": "Fiction",
+        "description": "The story of four sisters growing up during the Civil War."
+    },
+    {
+        "title": "Beloved",
+        "author": "Toni Morrison",
+        "genre": "Historical Fiction",
+        "description": "A powerful narrative about slavery and its aftermath."
+    },
+    {
+        "title": "The Goldfinch",
+        "author": "Donna Tartt",
+        "genre": "Literary Fiction",
+        "description": "The life of a boy after a traumatic event connects him to a famous painting."
+    },
+    {
+        "title": "Slaughterhouse-Five",
+        "author": "Kurt Vonnegut",
+        "genre": "Science Fiction",
+        "description": "A nonlinear exploration of time, war, and human frailty."
+    },
+    {
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "genre": "Thriller",
+        "description": "A fast-paced mystery involving religious symbols and secret societies."
+    },
+    {
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "genre": "Historical Fiction",
+        "description": "A young girl steals books and shares them during Nazi Germany."
+    },
+    {
+        "title": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "genre": "Romance",
+        "description": "A love story complicated by the unpredictability of time travel."
+    },
+    {
+        "title": "A Tale of Two Cities",
+        "author": "Charles Dickens",
+        "genre": "Historical Fiction",
+        "description": "A story of love, sacrifice, and revolution set during the French Revolution."
+    },
+    {
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "genre": "Romance",
+        "description": "The life of an orphaned girl and her complicated romance with Mr. Rochester."
+    },
+    {
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "genre": "Gothic Fiction",
+        "description": "A tale of passion, revenge, and tragedy on the Yorkshire moors."
+    },
+    {
+        "title": "The Outsiders",
+        "author": "S.E. Hinton",
+        "genre": "Young Adult",
+        "description": "A coming-of-age story about class struggles and brotherhood."
+    },
+    {
+        "title": "The Perks of Being a Wallflower",
+        "author": "Stephen Chbosky",
+        "genre": "Young Adult",
+        "description": "The story of an introverted teen finding his place in the world."
+    },
+    {
+        "title": "The House of the Spirits",
+        "author": "Isabel Allende",
+        "genre": "Magical Realism",
+        "description": "A multigenerational story blending history and magical realism."
+    },
+    {
+        "title": "The Shadow of the Wind",
+        "author": "Carlos Ruiz Zafón",
+        "genre": "Mystery",
+        "description": "A boy discovers a mysterious book that changes his life."
+    },
+    {
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "genre": "Fantasy",
+        "description": "A magical competition between two young illusionists."
     }
 ]
