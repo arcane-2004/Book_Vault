@@ -128,8 +128,30 @@ body {
     line-height: 1.2;
 }
 
+.your-book {
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    display: flex;
+    gap: 100px;
+}
+
 #user-info {
     padding: 0 30px 10px;
+}
+
+#user-info p{
+    font-size: 18px;
+}
+
+#user-info .user-books {
+    padding-left: 40px;
+    height: 100px;
+    width: 600px;
+    overflow-y: auto;
 }
 
 #actions h3 {
@@ -333,4 +355,23 @@ body {
     .nav-menu li {
         margin: 0;
     }
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

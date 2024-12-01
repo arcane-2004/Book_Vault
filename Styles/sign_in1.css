@@ -110,6 +110,7 @@ body {
     border-radius: 8px;
     font-weight: 600;
     transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 .nav-menu button:hover {

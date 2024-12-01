@@ -47,9 +47,22 @@ if (userData && userData.email) {
                 document.querySelector('#userid').innerHTML = matchingUser.userid;
 
                 // Update issued books in the "Your Books" tab
-                document.querySelector('#curr-books').innerHTML = matchingUser.issued_books // Display issued books
-                document.querySelector('#history').innerHTML = matchingUser.book // Display issued books
+                const userBooksHistory = document.querySelector('#curr-books') // Display issued books
+                const userBooksList = document.querySelector('#history') // Display issued books
 
+                userBooksHistory.innerHTML = '';
+                matchingUser.book.forEach(bookTitle => {
+                    const li = document.createElement('li');
+                    li.textContent = bookTitle;
+                    userBooksHistory.appendChild(li);
+                });
+
+                userBooksList.innerHTML = ''; // Clear previous books
+                matchingUser.issued_books.forEach(bookTitle => {
+                    const li = document.createElement('li');
+                    li.textContent = bookTitle;
+                    userBooksList.appendChild(li);
+                });
                 // Fetch recommended books based on issued books
                 fetchRecommendedBooks(matchingUser.book); // Split the string into an array
             } else {
@@ -137,7 +150,7 @@ function displaysearch(books) {
         bookCard.className = 'book-card';
         bookCard.style.cssText = `
             border: 1px solid #ccc; padding: 15px; margin: 10px;
-            width: 100px; display: inline-block; text-align: left;
+            width: 150px; display: inline-block; text-align: left;
             border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             font-size: 12px`;
 
@@ -166,4 +179,3 @@ function signOut() {
 document.querySelector(".nav-menu button").addEventListener("click", () => {
     signOut()
 });
-    

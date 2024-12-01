@@ -100,6 +100,7 @@ body {
     background-color: transparent;
     border-radius: 8px;
     transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 .nav-menu button:hover {
