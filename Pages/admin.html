@@ -52,8 +52,17 @@
         <h2>User Information</h2>
         <p><strong>Name:</strong> <span id="user-name"></span></p>
         <p><strong>Email:</strong> <span id="user-email"></span></p>
-        <h3>Issued Books:</h3>
-        <ul id="user-books-list"></ul>
+        <div class="your-book">
+            <div>
+                <h3>Issued Books:</h3>
+                <ul class="user-books" id="user-books-list"></ul>
+            </div>
+            <div>
+                <h3>Book History:</h3>
+                <ul class="user-books" id="user-books-history"></ul>
+            </div>
+        </div>
+
     </div>
 
     <!-- Actions for Admin (Issue/Return Book) -->
@@ -97,7 +106,7 @@
         </table>
     </div>
 
-    
+
     <div id="message-container" class="message-container"></div>
 
 

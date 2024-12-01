@@ -82,7 +82,7 @@ body {
 .nav-menu a {
     color: #2d3748;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     transition: color 0.2s ease;
     font-size: 16px;
 }
@@ -101,6 +101,7 @@ body {
     border-radius: 8px;
     font-weight: 600;
     transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 .nav-menu button:hover {
@@ -224,6 +225,7 @@ body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -235,6 +237,19 @@ body {
     padding: 24px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     margin-bottom: 20px;
+    display: flex;
+    gap: 100px;
+}
+
+.your-book .user-books {
+    padding-left: 40px;
+    height: 150px;
+    width: 500px;
+    overflow-y: auto;
+}
+
+.your-book h2 {
+    margin-bottom: 10px;
 }
 
 /* Responsive Design */
@@ -279,11 +294,13 @@ body {
 .tablink:hover::before {
     opacity: 1;
 }
+
 @keyframes slideDown {
     from {
         opacity: 0;
         transform: translateY(-10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -295,19 +312,19 @@ body {
     .text-bold {
         font-size: 28px;
     }
-    
+
     .text-thin {
         font-size: 16px;
     }
-    
+
     .search form {
         flex-direction: column;
     }
-    
+
     .search form input {
         width: 100%;
     }
-    
+
     .search form button {
         width: 100%;
     }
@@ -317,7 +334,7 @@ body {
     .menu-bar {
         display: none;
     }
-    
+
     .nav-menu {
         display: block;
         position: static;
@@ -325,14 +342,33 @@ body {
         box-shadow: none;
         padding: 0;
     }
-    
+
     .nav-menu ul {
         display: flex;
         align-items: center;
         gap: 32px;
     }
-    
+
     .nav-menu li {
         margin: 0;
     }
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

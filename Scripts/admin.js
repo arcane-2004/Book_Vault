@@ -211,6 +211,7 @@ function displayUserInfo() {
     const actionsDiv = document.getElementById('actions');
     const userNameSpan = document.getElementById('user-name');
     const userEmailSpan = document.getElementById('user-email');
+    const userBooksHistory = document.getElementById('user-books-history');
     const userBooksList = document.getElementById('user-books-list');
 
     if (!userInfoDiv || !actionsDiv || !userNameSpan || !userEmailSpan || !userBooksList) {
@@ -223,6 +224,13 @@ function displayUserInfo() {
         if (user) {
             userNameSpan.textContent = user.name;
             userEmailSpan.textContent = user.email;
+            userBooksHistory.innerHTML = '';
+            user.book.forEach(bookTitle => {
+                const li = document.createElement('li');
+                li.textContent = bookTitle;
+                userBooksHistory.appendChild(li);
+            });
+
             userBooksList.innerHTML = ''; // Clear previous books
 
             user.issued_books.forEach(bookTitle => {
@@ -311,6 +319,7 @@ async function returnBook(user, bookTitle) {
     }
 
     user.issued_books.splice(index, 1);  // Remove the book from the user's issued_books
+    user.book.push(bookTitle);
     const notAvailableIndex = notAvailableBooks.findIndex(book => book.title === bookTitle);
     if (notAvailableIndex !== -1) {
         notAvailableBooks.splice(notAvailableIndex, 1);  // Remove the book from notAvailableBooks
