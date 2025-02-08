@@ -1,0 +1,688 @@
+[
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Historical Fiction",
+        "description": "A story of racial injustice and childhood innocence in the American South.",
+        "image": "https://m.media-amazon.com/images/I/51IXWZzlgSL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "genre": "Dystopian Fiction",
+        "description": "A vision of a future society controlled by technology and conditioning.",
+        "image": "https://m.media-amazon.com/images/I/71GNqqXuN3L._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Dystopian Fiction",
+        "description": "A grim portrayal of a totalitarian regime and the suppression of freedom.",
+        "image": "https://m.media-amazon.com/images/I/41B-RzZYAFL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Tragedy",
+        "description": "A critique of the American Dream through the tragic life of Jay Gatsby.",
+        "image": "https://m.media-amazon.com/images/I/61dRoDRubtL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "genre": "Romance",
+        "description": "A classic love story exploring manners, marriage, and morality.",
+        "image": "https://m.media-amazon.com/images/I/91AFXQGcPVL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "genre": "Gothic Fiction",
+        "description": "A tale of passion and revenge set on the Yorkshire moors.",
+        "image": "https://m.media-amazon.com/images/I/81T34Sem-tL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Coming-of-Age Fiction",
+        "description": "A rebellious teenager's journey through New York City.",
+        "image": "https://m.media-amazon.com/images/I/71nXPGovoTL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "title": "Animal Farm",
+        "author": "George Orwell",
+        "genre": "Political Satire",
+        "description": "A fable about the corruption of power, set on a farm.",
+        "link": "https://www.amazon.com/Animal-Farm-George-Orwell/dp/0451526341/",
+        "image": "https://m.media-amazon.com/images/I/41bgiGplMlL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "genre": "Romance",
+        "description": "A young woman's journey through love, independence, and moral dilemmas.",
+        "image": "https://m.media-amazon.com/images/I/81pwJjgcwwL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "description": "An epic tale of the struggle between good and evil in Middle-earth.",
+        "image": "https://m.media-amazon.com/images/I/81PJmZlkTSL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "title": "Harry Potter",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "description": "The magical adventures of a young wizard and his fight against Voldemort.",
+        "image": "https://m.media-amazon.com/images/I/A1jGvzIZ7ZL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "description": "A prelude to The Lord of the Rings, featuring Bilbo Baggins' quest.",
+        "image": "https://m.media-amazon.com/images/I/81-8LMMiiuL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "title": "Little Women",
+        "author": "Louisa May Alcott",
+        "genre": "Coming-of-Age Fiction",
+        "description": "The lives of the four March sisters as they navigate love and hardships.",
+        "image": "https://m.media-amazon.com/images/I/61b1-TSotYS._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "genre": "Philosophical Fiction",
+        "description": "A shepherd's journey to discover his personal legend.",
+        "image": "https://m.media-amazon.com/images/I/51bDuU2p5zL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "genre": "Adventure Fiction",
+        "description": "A captain's obsessive quest to hunt the white whale, Moby Dick.",
+        "image": "https://m.media-amazon.com/images/I/41h1CVFjjdL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "genre": "Historical Fiction",
+        "description": "A sweeping narrative of Russian society during the Napoleonic Wars.",
+        "image": "https://m.media-amazon.com/images/I/51J1nb00FLL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Odyssey",
+        "author": "Homer",
+        "genre": "Epic Poetry",
+        "description": "The journey of Odysseus as he returns home after the Trojan War.",
+        "image": "https://m.media-amazon.com/images/I/51FR8mSgqoL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "genre": "Psychological Fiction",
+        "image": "https://m.media-amazon.com/images/I/71O2XIytdqL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "genre": "Gothic Fiction",
+        "description": "A scientist's creation of a living being leads to unintended consequences.",
+        "image": "https://m.media-amazon.com/images/I/81TVqiv-ctL._SL1500_.jpg"
+    },
+    {
+        "title": "The Scarlet Letter",
+        "author": "Nathaniel Hawthorne",
+        "genre": "Historical Fiction",
+        "description": "A story of sin, guilt, and redemption in Puritan America.",
+        "image": "https://m.media-amazon.com/images/I/51poYFyvtWL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "genre": "Philosophical Fiction",
+        "description": "A man remains young and beautiful while his portrait ages.",
+        "image": "https://m.media-amazon.com/images/I/713q-0+YgGL._SL1500_.jpg"
+    },
+    {
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "genre": "Historical Fiction",
+        "description": "A story of friendship and redemption set in Afghanistan.",
+        "image": "https://m.media-amazon.com/images/I/51vRNqL61aL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Life of Pi",
+        "author": "Yann Martel",
+        "genre": "Adventure Fiction",
+        "description": "A young boy survives a shipwreck and shares a lifeboat with a tiger.",
+        "image": "https://m.media-amazon.com/images/I/51rxEvLljUL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Fault in Our Stars",
+        "author": "John Green",
+        "genre": "Romance",
+        "description": "A poignant love story between two teenagers dealing with cancer.",
+        "image": "https://m.media-amazon.com/images/I/51BYcXvTimL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "genre": "Historical Fiction",
+        "description": "The tale of a young girl in Nazi Germany, narrated by Death.",
+        "image": "https://m.media-amazon.com/images/I/51C8Tg0TCaL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Shantaram",
+        "author": "Gregory David Roberts",
+        "genre": "Adventure Fiction",
+        "description": "A fugitive escapes to Mumbai and finds love and purpose in a foreign culture.",
+        "image": "https://m.media-amazon.com/images/I/81jwDxTChYL._SL1500_.jpg"
+    },
+    {
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "genre": "Fantasy",
+        "description": "A magical competition between two young illusionists that transforms their lives.",
+        "image": "https://m.media-amazon.com/images/I/71+whvJjE3L._SL1500_.jpg"
+    },
+    {
+        "title": "The Goldfinch",
+        "author": "Donna Tartt",
+        "genre": "Literary Fiction",
+        "description": "A boy's life is forever changed after surviving a museum bombing.",
+        "image": "https://m.media-amazon.com/images/I/81QxwwBNU9L._SL1500_.jpg"
+    },
+    {
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "genre": "Crime Fiction",
+        "description": "A journalist and a hacker team up to solve a decades-old disappearance.",
+        "image": "https://m.media-amazon.com/images/I/61Qs-hoZ-TL._SL1200_.jpg"
+    },
+    {
+        "title": "Cloud Atlas",
+        "author": "David Mitchell",
+        "genre": "Science Fiction",
+        "description": "Six interwoven stories spanning centuries, exploring human connection and karma.",
+        "image": "https://m.media-amazon.com/images/I/91qtyqnMudL._SL1500_.jpg"
+    },
+    {
+        "title": "Beloved",
+        "author": "Toni Morrison",
+        "genre": "Historical Fiction",
+        "description": "A haunting story of slavery and motherhood in post-Civil War America.",
+        "image": "https://m.media-amazon.com/images/I/51Qj9kPD4CL._SL1200_.jpg"
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "genre": "Science Fiction",
+        "description": "The story of a desert planet and the rise of its unlikely savior.",
+        "image": "https://m.media-amazon.com/images/I/81TmnPZWb0L._SL1500_.jpg"
+    },
+    {
+        "title": "The Shadow of the Wind",
+        "author": "Carlos Ruiz Zafón",
+        "genre": "Mystery",
+        "description": "A boy discovers a mysterious book that changes his life forever.",
+        "image": "https://m.media-amazon.com/images/I/913DdP7RflL._SL1500_.jpg"
+    },
+    {
+        "title": "The House of the Spirits",
+        "author": "Isabel Allende",
+        "genre": "Magical Realism",
+        "description": "The multigenerational tale of a family in Chile, mixing history and magic.",
+        "image": "https://m.media-amazon.com/images/I/91vPQqAQRhL._SL1500_.jpg"
+    },
+    {
+        "title": "The Giver",
+        "author": "Lois Lowry",
+        "genre": "Dystopian Fiction",
+        "description": "A young boy discovers the dark truths of his seemingly perfect society.",
+        "image": "https://m.media-amazon.com/images/I/81Yq5WKWfSL._SL1500_.jpg"
+    },
+    {
+        "title": "The Light We Cannot See",
+        "author": "Anthony Doerr",
+        "genre": "Historical Fiction",
+        "description": "The story of a blind French girl and a German boy during World War II.",
+        "image": "https://m.media-amazon.com/images/I/81RBTG28sCL._SL1500_.jpg"
+    },
+    {
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "genre": "Dystopian Fiction",
+        "description": "A chilling story of a theocratic society where women are subjugated.",
+        "image": "https://m.media-amazon.com/images/I/31zzmiNcUuL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "American Gods",
+        "author": "Neil Gaiman",
+        "genre": "Fantasy",
+        "description": "A man becomes embroiled in a battle between old gods and new.",
+        "image": "https://m.media-amazon.com/images/I/51Pb-OAREFL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Secret Life of Bees",
+        "author": "Sue Monk Kidd",
+        "genre": "Historical Fiction",
+        "description": "A young girl searches for her past and finds solace among a group of beekeeping sisters.",
+        "image": "https://m.media-amazon.com/images/I/81kXIB9G0dL._SL1500_.jpg"
+    },
+    {
+        "title": "Introduction to Algorithms",
+        "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+        "genre": "Engineering/Computer Science",
+        "description": "A comprehensive textbook on algorithms and data structures.",
+        "image": "https://m.media-amazon.com/images/I/41SNoh5ZhOL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Engineering Mechanics: Dynamics",
+        "author": "J.L. Meriam, L.G. Kraige",
+        "genre": "Engineering",
+        "description": "A foundational book on engineering mechanics and dynamics.",
+        "image": "https://m.media-amazon.com/images/I/51kHYP8OzAL.jpg"
+    },
+    {
+        "title": "The Art of Computer Programming",
+        "author": "Donald E. Knuth",
+        "genre": "Computer Science",
+        "description": "A seminal multi-volume work on algorithms and programming.",
+        "image": "https://m.media-amazon.com/images/I/61tIrzRmFdL._SL1500_.jpg"
+    },
+    {
+        "title": "Fundamentals of Physics",
+        "author": "David Halliday, Robert Resnick, Jearl Walker",
+        "genre": "Education/Science",
+        "description": "A widely used physics textbook for college students.",
+        "image": "https://m.media-amazon.com/images/I/51XIPiJHM7L._SX342_SY445_.jpg"
+    },
+    {
+        "title": "Linear Algebra and Its Applications",
+        "author": "Gilbert Strang",
+        "genre": "Mathematics",
+        "description": "A classic text on linear algebra with real-world applications.",
+        "image": "https://m.media-amazon.com/images/I/51dTnHdbOwL._SX342_SY445_.jpg"
+    },
+    {
+        "title": "Chemistry: The Central Science",
+        "author": "Theodore L. Brown, H. Eugene LeMay, Bruce E. Bursten",
+        "genre": "Education/Science",
+        "description": "An essential chemistry textbook for understanding chemical principles.",
+        "image": "https://m.media-amazon.com/images/I/81dC7pTHdsL._SL1500_.jpg"
+    },
+    {
+        "title": "Design Patterns",
+        "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+        "genre": "Computer Science",
+        "description": "A fundamental guide to software design patterns.",
+        "image": "https://m.media-amazon.com/images/I/41l2KFHRcFL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Deep Learning",
+        "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+        "genre": "Computer Science/Artificial Intelligence",
+        "description": "An in-depth exploration of deep learning methods and theory.",
+        "image": "https://m.media-amazon.com/images/I/61AA6wv7ieL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Machine Design",
+        "author": "Robert L. Norton",
+        "genre": "Engineering/Mechanical",
+        "description": "A comprehensive resource for mechanical design principles.",
+        "image": "https://m.media-amazon.com/images/I/51YPtDWWViL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Psychology: Themes and Variations",
+        "author": "Wayne Weiten",
+        "genre": "Education/Psychology",
+        "description": "A popular psychology textbook that introduces key themes and theories.",
+        "image": "https://m.media-amazon.com/images/I/41cwA8D1A4L._SX342_SY445_.jpg"
+    },
+    {
+        "title": "Strength of Materials",
+        "author": "R. Subramanian",
+        "genre": "Engineering",
+        "description": "An essential textbook on material strength for engineering students.",
+        "image": "https://m.media-amazon.com/images/I/51RS37z8-GL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Feynman Lectures on Physics",
+        "author": "Richard P. Feynman, Robert B. Leighton, Matthew Sands",
+        "genre": "Education/Physics",
+        "description": "A renowned lecture series explaining physics with simplicity and clarity.",
+        "image": "https://m.media-amazon.com/images/I/61S7MI9NMHL._SL1500_.jpg"
+    },
+    {
+        "title": "Cracking the Coding Interview",
+        "author": "Gayle Laakmann McDowell",
+        "genre": "Career/Computer Science",
+        "description": "A guide to technical interviews for software engineering jobs.",
+        "image": "https://m.media-amazon.com/images/I/41oYsXjLvZL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Rich Dad Poor Dad",
+        "author": "Robert T. Kiyosaki",
+        "genre": "Self-Help/Finance",
+        "description": "A book on financial education and building wealth.",
+        "image": "https://m.media-amazon.com/images/I/51u8ZRDCVoL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Think and Grow Rich",
+        "author": "Napoleon Hill",
+        "genre": "Self-Help",
+        "description": "A guide to success and wealth based on timeless principles.",
+        "image": "https://m.media-amazon.com/images/I/51EhG-kKCAL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "genre": "Business/Entrepreneurship",
+        "description": "A methodology for building successful startups using lean principles.",
+        "image": "https://m.media-amazon.com/images/I/51T-sMqSMiL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "A Brief History of Time",
+        "author": "Stephen Hawking",
+        "genre": "Science",
+        "description": "An exploration of the universe, black holes, and the nature of time.",
+        "image": "https://m.media-amazon.com/images/I/51+GySc8ExL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Astrophysics for People in a Hurry",
+        "author": "Neil deGrasse Tyson",
+        "genre": "Science",
+        "description": "A concise introduction to astrophysics for curious readers.",
+        "image": "https://m.media-amazon.com/images/I/51e9tNHsSgL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Elements of Statistical Learning",
+        "author": "Trevor Hastie, Robert Tibshirani, Jerome Friedman",
+        "genre": "Mathematics/Data Science",
+        "description": "A comprehensive guide to machine learning and statistical methods.",
+        "image": "https://m.media-amazon.com/images/I/41aQrQaPseL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Art of War",
+        "author": "Sun Tzu",
+        "genre": "Philosophy/Strategy",
+        "description": "An ancient treatise on military strategy and leadership.",
+        "image": "https://m.media-amazon.com/images/I/71jWgemHbML._SY466_.jpg"
+    },
+    {
+        "title": "Outliers: The Story of Success",
+        "author": "Malcolm Gladwell",
+        "genre": "Non-fiction",
+        "description": "An exploration of what makes high achievers different from others.",
+        "image": "https://m.media-amazon.com/images/I/31SJUjkn4TL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Power of Habit",
+        "author": "Charles Duhigg",
+        "genre": "Self-Help",
+        "description": "An investigation into how habits work and how they can be changed.",
+        "image": "https://m.media-amazon.com/images/I/71wm29Etl4L._SL1500_.jpg"
+    },
+    {
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "genre": "Non-fiction/History",
+        "description": "A sweeping history of humankind, from the Stone Age to the modern era.",
+        "image": "https://m.media-amazon.com/images/I/41lZKXt1+ML._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Educated",
+        "author": "Tara Westover",
+        "genre": "Memoir",
+        "description": "A memoir about a woman’s journey from growing up in a survivalist family to earning a PhD.",
+        "image": "https://m.media-amazon.com/images/I/41GE5-l2ptL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "author": "Mark Manson",
+        "genre": "Self-Help",
+        "description": "A guide to living a better life by caring less about what doesn’t matter.",
+        "image": "https://m.media-amazon.com/images/I/51mN3bY0JjL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "genre": "Self-Help",
+        "description": "A guide to building good habits and breaking bad ones.",
+        "image": "https://m.media-amazon.com/images/I/419CqGgAdZL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The 7 Habits of Highly Effective People",
+        "author": "Stephen R. Covey",
+        "genre": "Self-Help",
+        "description": "A classic guide to personal and professional effectiveness.",
+        "image": "https://m.media-amazon.com/images/I/41ZADYWlkYL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "How to Win Friends and Influence People",
+        "author": "Dale Carnegie",
+        "genre": "Self-Help",
+        "description": "Timeless principles for improving relationships and influence.",
+        "image": "https://m.media-amazon.com/images/I/41OksZQYt+L._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Four Agreements",
+        "author": "Don Miguel Ruiz",
+        "genre": "Self-Help",
+        "description": "A practical guide to personal freedom based on ancient Toltec wisdom.",
+        "image": "https://m.media-amazon.com/images/I/517MwXYNucL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The War of Art",
+        "author": "Steven Pressfield",
+        "genre": "Self-Help",
+        "description": "A motivational book for overcoming creative blocks and resistance.",
+        "image": "https://m.media-amazon.com/images/I/41PLv7KMxJL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Psychology of Influence",
+        "author": "Robert B. Cialdini",
+        "genre": "Psychology",
+        "description": "A comprehensive study of the principles of persuasion.",
+        "image": "https://m.media-amazon.com/images/I/411k4M-vNwL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Grit: The Power of Passion and Perseverance",
+        "author": "Angela Duckworth",
+        "genre": "Psychology",
+        "description": "A study of the importance of grit and perseverance in achieving long-term goals.",
+        "image": "https://m.media-amazon.com/images/I/41bN9NIz89L._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "genre": "Psychology",
+        "description": "A groundbreaking work on human decision-making and cognitive biases.",
+        "image": "https://m.media-amazon.com/images/I/41wI53OEpCL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Innovator's Dilemma",
+        "author": "Clayton Christensen",
+        "genre": "Business",
+        "description": "An exploration of why large companies fail to innovate and how to overcome that challenge.",
+        "image": "https://m.media-amazon.com/images/I/51DSHKCi1JL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Start with Why",
+        "author": "Simon Sinek",
+        "genre": "Business/Leadership",
+        "description": "A guide to understanding the importance of purpose and vision in leadership.",
+        "image": "https://m.media-amazon.com/images/I/41iZulVq18L._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Zero to One",
+        "author": "Peter Thiel",
+        "genre": "Business/Entrepreneurship",
+        "description": "A guide to building innovative companies that create new industries.",
+        "image": "https://m.media-amazon.com/images/I/31Dj0fQiqYL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "genre": "Business/Entrepreneurship",
+        "description": "A methodology for building successful startups using lean principles.",
+        "image": "https://m.media-amazon.com/images/I/41+ZsplOPWL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Millionaire Next Door",
+        "author": "Thomas J. Stanley, William D. Danko",
+        "genre": "Finance",
+        "description": "A study of the common traits among self-made millionaires in America.",
+        "image": "https://m.media-amazon.com/images/I/410-4I+i9-L._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Rich Dad Poor Dad",
+        "author": "Robert T. Kiyosaki",
+        "genre": "Finance/Personal Development",
+        "description": "A guide to personal finance and wealth-building through financial education.",
+        "image": "https://m.media-amazon.com/images/I/51u8ZRDCVoL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Intelligent Investor",
+        "author": "Benjamin Graham",
+        "genre": "Finance",
+        "description": "A classic book on value investing and stock market strategies.",
+        "image": "https://m.media-amazon.com/images/I/51iUvaI2DgL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Psychology of Money",
+        "author": "Morgan Housel",
+        "genre": "Finance/Psychology",
+        "description": "An exploration of how human behavior affects financial decisions.",
+        "image": "https://m.media-amazon.com/images/I/41UjwN3DzVL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Simple Path to Wealth",
+        "author": "JL Collins",
+        "genre": "Finance",
+        "description": "A straightforward guide to achieving financial independence through investing.",
+        "image": "https://m.media-amazon.com/images/I/41oX+Lk2-ML._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Principles: Life and Work",
+        "author": "Ray Dalio",
+        "genre": "Business/Personal Development",
+        "description": "The principles that helped Ray Dalio build one of the world's largest hedge funds.",
+        "image": "https://m.media-amazon.com/images/I/41Dn20bdaAL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Art of Thinking Clearly",
+        "author": "Rolf Dobelli",
+        "genre": "Self-Help/Psychology",
+        "description": "A collection of cognitive biases and how to avoid them in decision-making.",
+        "image": "https://m.media-amazon.com/images/I/41rrBeKGoBL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "Man’s Search for Meaning",
+        "author": "Viktor Frankl",
+        "genre": "Psychology",
+        "description": "A Holocaust survivor's exploration of finding purpose in life.",
+        "image": "https://m.media-amazon.com/images/I/41tMoJhbR9L._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Road to Character",
+        "author": "David Brooks",
+        "genre": "Self-Help",
+        "description": "A guide to building character and leading a life of virtue.",
+        "image": "https://m.media-amazon.com/images/I/319lrCag82L._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Tao of Pooh",
+        "author": "Benjamin Hoff",
+        "genre": "Philosophy",
+        "description": "A lighthearted introduction to Taoism through the characters of Winnie the Pooh.",
+        "image": "https://m.media-amazon.com/images/I/31a9N6yMGrL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Hero’s Journey",
+        "author": "Joseph Campbell",
+        "genre": "Philosophy/Mythology",
+        "description": "A study of the universal themes found in myths and legends around the world.",
+        "image": "https://m.media-amazon.com/images/I/41hC+paZdwL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Bhagavad Gita",
+        "author": "Vyasa",
+        "genre": "Philosophy/Spirituality",
+        "description": "A 700-verse Hindu scripture that is part of the Indian epic Mahabharata.",
+        "image": "https://m.media-amazon.com/images/I/71jWK5-fBML._SL1500_.jpg"
+    },
+    {
+        "title": "The Qur'an",
+        "author": "Various",
+        "genre": "Religion/Spirituality",
+        "description": "The holy book of Islam, believed to be the word of God as revealed to Muhammad.",
+        "image": "https://m.media-amazon.com/images/I/51WZb56ubRL._SX342_SY445_.jpg"
+    },
+    {
+        "title": "The Bible",
+        "author": "Various",
+        "genre": "Religion/Spirituality",
+        "description": "The sacred scripture of Christianity, containing the Old and New Testaments.",
+        "image": "https://www.shutterstock.com/image-vector/vector-cover-holy-bible-260nw-230841496.jpg"
+    },
+    {
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "genre": "Poetry/Philosophy",
+        "description": "A three-part epic poem exploring the realms of Hell, Purgatory, and Heaven.",
+        "image": "https://m.media-amazon.com/images/I/51waJEQWD5L._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Canterbury Tales",
+        "author": "Geoffrey Chaucer",
+        "genre": "Literature",
+        "description": "A collection of stories told by pilgrims on their way to Canterbury.",
+        "image": "https://m.media-amazon.com/images/I/51-vplnYIGL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel García Márquez",
+        "genre": "Magical Realism",
+        "description": "A multi-generational saga set in the fictional town of Macondo.",
+        "image": "https://m.media-amazon.com/images/I/51rg0tvuFvL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The God of Small Things",
+        "author": "Arundhati Roy",
+        "genre": "Literary Fiction",
+        "description": "A story of forbidden love set in Kerala, India, told through rich prose.",
+        "image": "https://m.media-amazon.com/images/I/41jFJcgRRtL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Master and Margarita",
+        "author": "Mikhail Bulgakov",
+        "genre": "Magical Realism",
+        "description": "A fantastical tale involving the Devil visiting Soviet Moscow.",
+        "image": "https://m.media-amazon.com/images/I/41t5Gfku5cL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "genre": "Fantasy",
+        "description": "A magical competition between two young illusionists that transforms their lives.",
+        "image": "https://m.media-amazon.com/images/I/41ejaa4zzdL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Secret History",
+        "author": "Donna Tartt",
+        "genre": "Mystery/Thriller",
+        "description": "A thriller about a group of college students involved in a murder.",
+        "image": "https://m.media-amazon.com/images/I/416lUyEwujL._SY445_SX342_.jpg"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Literary Fiction",
+        "description": "A novel about a disillusioned teenager's experiences in New York City.",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81OthjkJBuL._AC_UL260_SR260,260_.jpg"
+    }
+]
