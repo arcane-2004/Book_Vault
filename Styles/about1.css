@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../Assets/about1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styles */
+.nav {
+    background-color: #ffffff;
+    height: 64px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.book {
+    font-weight: 700;
+    font-size: 24px;
+    color: #1b7a6a;
+    letter-spacing: -0.5px;
+}
+
+.menu-bar {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.menu-bar div {
+    width: 100%;
+    height: 2px;
+    background-color: #2d3748;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: end;
+    display: none;
+    background-color: #ffffff;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 12px 12px;
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-menu a {
+    color: #2d3748;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+
+.nav-menu a:hover {
+    color: #1b7a6a;
+}
+
+.nav-menu button {
+    height: 36px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1b7a6a;
+    border: 2px solid #1b7a6a;
+    background-color: transparent;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-menu button:hover {
+    background-color: #1b7a6a;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.nav-menu.active {
+    display: block;
+    animation: slideDown 0.3s ease;
+}
+
+/* Content Area Styles */
+.content {
+    padding-top: 88px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* About Section Styles */
+.text {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 24px;
+}
+
+.text-bold {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.text-thin {
+    font-size: 18px;
+    color: #4a5568;
+    margin-bottom: 32px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* About Box */
+.abouttext {
+    margin: 40px auto;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+    max-width: 800px;
+    font-size: 16px;
+    text-align: center;
+    color: #2d3748;
+}
+
+.abouttext h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1b7a6a;
+    margin-bottom: 12px;
+}
+
+/* Animations */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .text-bold {
+        font-size: 28px;
+    }
+    .text-thin {
+        font-size: 16px;
+    }
+    .menu-bar {
+        display: flex;
+    }
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .abouttext {
+        padding: 16px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-bar {
+        display: none;
+    }
+    .nav-menu {
+        display: flex;
+        position: static;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+    .nav-menu ul {
+        flex-direction: row;
+        gap: 24px;
+    }
+}

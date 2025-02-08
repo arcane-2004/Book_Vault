@@ -1,0 +1,377 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styles */
+.nav {
+    background-color: #ffffff;
+    height: 64px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.book {
+    font-weight: 700;
+    font-size: 24px;
+    color: #1b7a6a;
+    letter-spacing: -0.5px;
+}
+
+.menu-bar {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.menu-bar div {
+    width: 100%;
+    height: 2px;
+    background-color: #2d3748;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+.nav-menu {
+    display: none;
+    background-color: #ffffff;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 12px 12px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.nav-menu li {
+    margin: 16px 0;
+}
+
+.nav-menu a {
+    color: #2d3748;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    font-size: 16px;
+}
+
+.nav-menu a:hover {
+    color: #1b7a6a;
+}
+
+.nav-menu button {
+    height: 36px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #1b7a6a;
+    border: 2px solid #1b7a6a;
+    background-color: transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.nav-menu button:hover {
+    background-color: #1b7a6a;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.nav-menu.active {
+    display: block;
+    animation: slideDown 0.3s ease;
+}
+
+/* Admin Portal Content */
+.top-heading {
+    padding: 88px 24px 32px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e7eb 100%);
+}
+
+.heading {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1a202c;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.your-book {
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    display: flex;
+    gap: 100px;
+}
+
+#user-info {
+    padding: 0 30px 10px;
+}
+
+#user-info p{
+    font-size: 18px;
+}
+
+#user-info .user-books {
+    padding-left: 40px;
+    height: 100px;
+    width: 600px;
+    overflow-y: auto;
+}
+
+#actions h3 {
+    padding: 0 30px;
+}
+
+/* Admin Panel Form */
+.form-container {
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 0 24px;
+}
+
+#admin-form {
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #2d3748;
+}
+
+#admin-form select,
+#admin-form input {
+    width: 100%;
+    height: 48px;
+    padding: 0 16px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    background-color: white;
+    transition: all 0.2s ease;
+}
+
+#admin-form select:focus,
+#admin-form input:focus {
+    border-color: #1b7a6a;
+    box-shadow: 0 0 0 3px rgba(27, 122, 106, 0.2);
+    outline: none;
+}
+
+#admin-form button {
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #1b7a6a;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#admin-form button:hover {
+    background-color: #156758;
+    transform: translateY(-1px);
+}
+
+/* Status Message */
+
+#status-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    /* Green background */
+    color: white;
+    /* White text */
+    border-radius: 5px;
+    display: none;
+    /* Initially hidden */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Books Table */
+.not-available {
+    padding: 32px 24px;
+}
+
+#books-table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 32px auto;
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#books-table th,
+#books-table td {
+    padding: 16px;
+    text-align: left;
+}
+
+#books-table th {
+    background-color: #1b7a6a;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#books-table tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+#books-table tr:hover {
+    background-color: #f1f5f9;
+}
+
+#books-table td {
+    font-size: 15px;
+    color: #4a5568;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+#books-table button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #1b7a6a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#books-table button:hover {
+    background-color: #156758;
+    transform: translateY(-1px);
+}
+
+
+/* Animations */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .heading h1 {
+        font-size: 28px;
+    }
+
+    #admin-form {
+        padding: 24px;
+    }
+
+    #books-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .menu-bar {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-bar {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+        position: static;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .nav-menu ul {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .nav-menu li {
+        margin: 0;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
