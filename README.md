@@ -49,6 +49,7 @@ A Web Application for Library Management  
 
 ### Admin Portal
 ![Screenshot 2024-12-06 132159](https://github.com/user-attachments/assets/cf5bde4b-1702-4cef-af1f-cd74f789cf21)
-![Screenshot 2024-12-06 132209](https://github.com/user-attachments/assets/9d692100-6f7e-4475-97e1-159141321fef)
+![image](https://github.com/user-attachments/assets/c145e7ff-a98e-4120-a334-9c12e998859e)
+
 
 
