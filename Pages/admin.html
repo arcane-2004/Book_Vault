@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portalt</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css">
+    <!-- <link rel="stylesheet" href="../Styles/admin.css"> -->
+    <link rel="stylesheet" href="../Styles/admin1.css">
+    <link rel="icon" href="../Assets/vitlogo.jpg">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <img src="../Assets/vitlogo.jpg" alt="Logo" width="30" height="30" class="vitlogo" />
+            <div class="book">BookVault</div>
+            <div class="menu-bar" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="nav-menu" class="nav-menu">
+                <ul>
+
+                    <!-- removed Book_Vault
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Pages/about.html">About</a></li>
+                    <li><a class="signed-in" href="../Pages/dashboard.html">Dashboard</a></li>
+                    <li><button onclick="window.location.href='../Pages/sign_in.html'">Sign In</button></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="top-heading">
+        <!-- User Selection -->
+        <div class="form-container">
+            <label >Select User:</label>
+            <select id="user-select" onchange="displayUserInfo()">
+                <option value="">-- Select User --</option>
+                <!-- Users will be dynamically added here -->
+            </select>
+        </div>
+        <div class="heading">
+            <h1>Library Admin Portal</h1>
+        </div>
+    </div>
+    <!-- User Info -->
+    <div id="user-info">
+        <h2>User Information</h2>
+        <p><strong>Name:</strong> <span id="user-name"></span></p>
+        <p><strong>Email:</strong> <span id="user-email"></span></p>
+        <div class="your-book">
+            <div>
+                <h3>Issued Books:</h3>
+                <ul class="user-books" id="user-books-list"></ul>
+            </div>
+            <div>
+                <h3>Book History:</h3>
+                <ul class="user-books" id="user-books-history"></ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Actions for Admin (Issue/Return Book) -->
+    <div id="actions">
+        <h3>Issue/Return Book</h3>
+        <form id="admin-form">
+            <label for="book-action">Action:</label>
+            <select id="book-action">
+                <option value="issue">Issue</option>
+                <option value="return">Return</option>
+            </select>
+            <br><br>
+            <label for="book-input">Book Title:</label>
+            <select id="book-input">
+                <option value="">-- Select Book --</option>
+                <!-- Books will be dynamically added here -->
+            </select>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Status Message -->
+    <div id="status-message"></div>
+
+    <!-- Not Available Books Table -->
+    <div class="not-available">
+        <h2>Not Available Books</h2>
+        <table id="books-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Issuer</th>
+                    <th>Issued Date</th>
+                    <th> Send Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data populated by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+
+    <div id="message-container" class="message-container"></div>
+
+
+    <script src="../Scripts/admin.js"></script>
+    <!-- Choices.js JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+</body>
+
+</html>

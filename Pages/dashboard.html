@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../Styles/dashboard.css"> -->
+    <link rel="stylesheet" href="../Styles/dashboard1.css">
+    <link rel="icon" href="../vitlogo.jpg">
+    <title>Dashboard - BookVault</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <img src="../vitlogo.jpg" alt="Logo" width="30" height="30" class="vitlogo" />
+            <div class="book">BookVault</div>
+            <div class="menu-bar" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="nav-menu" class="nav-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Pages/about.html">About</a></li>
+                    <li><button onclick="window.location.href='../Pages/sign_in.html';">Sign Out</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <main class="dashboard-container">
+            <div class="vertical-tabs">
+                <button class="tablink active" onclick="openTab(event, 'profile')">Profile</button>
+                <button class="tablink" onclick="openTab(event, 'your-books')">Your Books</button>
+            </div>
+
+            <div class="tab-content" id="profile">
+                <div class="your-profile">
+                    <h2>Your Profile</h2>
+                    <div class="user_info" id="name"> Loading...</div>
+                    <div class="user_info" id="email">Loading...</div>
+                    <div class="user_info" id="userid"></div>
+                </div>
+                <!-- <p>Here is the information about your profile.</p> -->
+            </div>
+
+            <div class="tab-content" id="your-books" style="display:none;">
+                <h1>Your Books</h1>
+                <!-- <p>Here is a list of the books you've issued:</p> -->
+                <div class="your-book">
+                    <div>
+                        <h2>Current issued</h2>
+                        <ul class="user-books" id="curr-books"></ul>
+                    </div>
+                    <div>
+                        <h2>History</h2>
+                        <ul class="user-books" id="history">Loading...</ul>
+                    </div>
+                </div>
+
+                <h3>Recommended Books</h3>
+                <div id="recommended-books">Loading...</div>
+            </div>
+    </div>
+    </main>
+
+    <script src="../Scripts/dashboard.js"></script>
+</body>
+
+</html>
